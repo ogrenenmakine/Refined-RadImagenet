@@ -35,13 +35,13 @@ process.py
 
 1. **Extract the Dataset**:
    Ensure the dataset tar file is located in the 
-
+```
 source
-
+```
  directory. The script will automatically extract it to the 
-
+```
 data
-
+```
  directory if it doesn't already exist.
 
    ```sh
