@@ -54,7 +54,7 @@ git lfs install
 To clone the entire repository into your local machine, use the following command:
 
 ```bash
-git clone https://huggingface.co/ogrenenmakine/Refined-RadImagenet source
+git clone https://huggingface.co/ogrenenmakine/Refined-RadImagenet source/
 ```
 
 This command will clone all files from the repository into a directory named `source`.
