@@ -1,4 +1,4 @@
-# Radiology AI Project
+# Refined RadImagenet - Conversion Tools
 
 This code designed to process the RadImagenet and convert to stratified and refined organization.
 
