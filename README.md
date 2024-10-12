@@ -35,15 +35,11 @@ process.py
 
 To create a GitHub README file with the instructions for using Git to clone the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`, you can format it as follows:
 
-# Refined-RadImagenet Repository
+## Download Processing Files
 
 This repository contains files from the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`. Follow the instructions below to clone the repository using Git.
 
-## Prerequisites
-
-Ensure that you have Git and Git LFS (Large File Storage) installed on your system. Git LFS is necessary for handling large files in the repository.
-
-### Install Git LFS
+### Prerequisites
 
 If you haven't installed Git LFS yet, you can do so using the following command:
 
