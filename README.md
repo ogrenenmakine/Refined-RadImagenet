@@ -1,6 +1,6 @@
 # Refined RadImagenet - Conversion Tools
 
-This code designed to process the RadImagenet and convert to stratified and refined organization.
+This code designed to process the RadImagenet and convert to refined and stratified organization.
 
 ## Folder Structure
 
