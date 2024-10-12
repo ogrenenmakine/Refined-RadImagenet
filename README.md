@@ -70,15 +70,15 @@ Feel free to contribute or raise issues if you encounter any problems.
 
 1. **Extract the Dataset**:
 ```sh
-   python process.py
+python process.py
 ```
 Ensure the dataset tar file is located at:
 ```
-source
+source/
 ```
 The script will automatically extract to:
 ```
-data
+data/
 ```
 
 2. **Process the Images**:
