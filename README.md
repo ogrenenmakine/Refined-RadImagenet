@@ -1,5 +1,7 @@
 # Refined RadImagenet - Conversion Tools
 
+The RadImageNet dataset are available by request at `https://www.radimagenet.com/`
+
 This code designed to process the RadImagenet and convert to refined and stratified organization.
 
 ## Folder Structure
