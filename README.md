@@ -9,6 +9,7 @@ correction_masks/
 data/
 output/
 source/
+    correction_masks.tar.gz
     radimagenet.tar.gz
     RadiologyAI_test.csv
     RadiologyAI_train.csv
