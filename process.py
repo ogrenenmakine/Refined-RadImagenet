@@ -78,16 +78,20 @@ if __name__ == "__main__":
     os.makedirs('./data', exist_ok=True)
     os.makedirs('./source', exist_ok=True)
 
-    # extract tar file
-    zip_path = './source/radimagenet.tar.gz'
-    extract_to = './data'
-
     # check if the file exists
     if not os.path.exists(extract_to):
         if not os.path.exists(zip_path):
             raise FileNotFoundError(f"File {zip_path} not found")
         else:
-            untar_file(zip_path, extract_to)
+            with tarfile.open('source/correction_masks.tar.gz', 'r:gz') as tar:
+                tar.extractall(path='correction_masks/')    
+
+    # check if the file exists
+    if not os.path.exists('./data'):
+        if not os.path.exists('./source/radimagenet.tar.gz'):
+            raise FileNotFoundError(f"File source/radimagenet.tar.gz not found")
+        else:
+            untar_file('./source/radimagenet.tar.gz', './data')
 
     # read csv files
     file_list = read_csv_file('./source/RadiologyAI_test.csv')
