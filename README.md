@@ -33,7 +33,6 @@ process.py
 
 To create a GitHub README file with the instructions for using Git to clone the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`, you can format it as follows:
 
-```markdown
 # Refined-RadImagenet Repository
 
 This repository contains files from the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`. Follow the instructions below to clone the repository using Git.
@@ -66,7 +65,6 @@ This command will clone all files from the repository into a directory named `so
 - For more information about this dataset, visit the [Hugging Face page](https://huggingface.co/ogrenenmakine/Refined-RadImagenet).
 
 Feel free to contribute or raise issues if you encounter any problems.
-```
 
 ## Usage
 
