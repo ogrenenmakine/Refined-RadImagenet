@@ -22,6 +22,7 @@ process.py
 - **data/**: Contains the extracted radiology images.
 - **output/**: Directory for output files.
 - **source/**: Contains source files and datasets.
+  - **correction_masks.tar.gz**: the file contains correction masks.     
   - **radimagenet.tar.gz**: the original compressed RadImagenet file.
   - **RadiologyAI_test.csv**: CSV file for test dataset.
   - **RadiologyAI_train.csv**: CSV file for training dataset.
