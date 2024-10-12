@@ -17,7 +17,7 @@ source/
 process.py
 ```
 
-### Directories
+### Files & Directories
 
 - **correction_masks/**: Contains correction masks for the images.
 - **data/**: Contains the extracted radiology images.
