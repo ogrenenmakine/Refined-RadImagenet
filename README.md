@@ -34,19 +34,17 @@ process.py
 ## Usage
 
 1. **Extract the Dataset**:
-   Ensure the dataset tar file is located in the 
+```sh
+   python process.py
+```
+Ensure the dataset tar file is located at:
 ```
 source
 ```
- directory. The script will automatically extract it to the 
+The script will automatically extract to:
 ```
 data
 ```
- directory if it doesn't already exist.
-
-   ```sh
-   python process.py
-   ```
 
 2. **Process the Images**:
    The script will read the CSV files, refined the images, and organize accordingly.
