@@ -4,12 +4,30 @@ The RadImageNet dataset are available by request at [https://www.radimagenet.com
 
 This code designed to process the RadImagenet and convert to refined and stratified organization.
 
+## ResNet Models and Weights
+
 The model weights shared through [https://huggingface.co/ogrenenmakine/RadImagenet](https://huggingface.co/ogrenenmakine/RadImagenet)
 
 ```
 timm.create_model('resnet10t', num_classes=165)
 ```
 The trained model are timm implementations.
+
+## Performance Comparison of ResNet Models
+
+This table compares the performance of ResNet models pretrained on 2D RadImagenet using regular and Two2Three convolution techniques across various metrics.
+
+| Features    | Precision (macro) | Recall (macro) | F1 (macro) | Accuracy (balanced) | Accuracy (Average) |
+|-------------|-------------------|----------------|------------|---------------------|--------------------|
+| Resnet-10t  | 0.4720            | 0.3848         | 0.3998     | 0.3848              | 0.7981             |
+| Resnet-18   | 0.5150            | 0.4383         | 0.4545     | 0.4383              | 0.8177             |
+| Resnet-50   | 0.5563            | 0.4934         | 0.5097     | 0.4934              | 0.8352             |
+
+We highly recommend you to adap the code for benchmarking for other models:
+
+```
+https://github.com/pytorch/vision/tree/main/references/classification
+```
 
 ## Folder Structure
 
