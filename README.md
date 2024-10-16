@@ -16,9 +16,8 @@ This table compares the performance of ResNet models pretrained on 2D RadImagene
 
 We highly recommend you to adap the code for benchmarking for other models:
 
-```
-https://github.com/pytorch/vision/tree/main/references/classification
-```
+[https://github.com/pytorch/vision/tree/main/references/classification](https://github.com/pytorch/vision/tree/main/references/classification)
+
 
 ### ResNet Models and Weights
 
