@@ -33,6 +33,7 @@ The trained model are timm implementations.
 ```
 correction_masks/
 data/
+weights/
 output/
 source/
     correction_masks.tar.gz
@@ -41,12 +42,14 @@ source/
     RadiologyAI_train.csv
     RadiologyAI_val.csv
 process.py
+measure_acc_metrics.py
 ```
 
 ### Files & Directories
 
 - **correction_masks/**: Contains correction masks for the images.
 - **data/**: Contains the extracted radiology images.
+- **weights/**: Model weights containing folders.
 - **output/**: Directory for output files.
 - **source/**: Contains source files and datasets.
   - **correction_masks.tar.gz**: the file contains correction masks.     
