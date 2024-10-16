@@ -10,7 +10,7 @@ This table compares the performance of ResNet models pretrained on 2D RadImagene
 
 | Features    | Precision (macro) | Recall (macro) | F1 (macro) | Accuracy (balanced) | Accuracy (Average) |
 |-------------|-------------------|----------------|------------|---------------------|--------------------|
-| Resnet-10t  | 0.4720            | 0.3848         | 0.3998     | 0.3848              | 0.7981             |
+| Resnet-10  | 0.4720            | 0.3848         | 0.3998     | 0.3848              | 0.7981             |
 | Resnet-18   | 0.5150            | 0.4383         | 0.4545     | 0.4383              | 0.8177             |
 | Resnet-50   | 0.5563            | 0.4934         | 0.5097     | 0.4934              | 0.8352             |
 
