@@ -4,6 +4,14 @@ The RadImageNet dataset are available by request at [https://www.radimagenet.com
 
 This code designed to process the RadImagenet and convert to refined and stratified organization.
 
+The model weights shared through [https://huggingface.co/ogrenenmakine/RadImagenet](https://huggingface.co/ogrenenmakine/RadImagenet)
+
+The trained model are timm implementations:
+
+'''
+timm.create_model('resnet10t', num_classes=165)
+'''
+
 ## Folder Structure
 
 ```
