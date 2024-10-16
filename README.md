@@ -61,6 +61,7 @@ measure_acc_metrics.py
 ### Files
 
 - **process.py**: Main script to process and organize the RadImagenet files.
+- **measure_acc_metrics.py**: The script to measure accuracy metrics.
 
 To create a GitHub README file with the instructions for using Git to clone the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`, you can format it as follows:
 
