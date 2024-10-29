@@ -1,5 +1,7 @@
 # Refined RadImagenet - Conversion Tools
 
+## :zap:	:zap:	Repo moved to [converging-machine](https://github.com/converging-machine/Policy-Gradient-Driven-Noise-Mask) :zap:	:zap:	
+
 The RadImageNet dataset are available by request at [https://www.radimagenet.com/](https://www.radimagenet.com/))
 
 This code designed to process the RadImagenet and convert to refined and stratified organization.
