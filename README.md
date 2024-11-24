@@ -92,7 +92,7 @@ This command will clone all files from the repository into a directory named `so
 ## Notes
 
 - Make sure you have sufficient storage space for large files.
-- For more information about this dataset, visit the [Hugging Face page](https://huggingface.co/ogrenenmakine/Refined-RadImagenet).
+- For more information about this dataset, visit the [Hugging Face page](https://huggingface.co/datasets/ogrenenmakine/Refined-RadImagenet).
 
 Feel free to contribute or raise issues if you encounter any problems.
 
