@@ -1,6 +1,6 @@
 # Refined RadImagenet - Conversion Tools
 
-## :zap:	:zap:	Repo moved to [converging-machine](https://github.com/convergingmachine/Refined-RadImagenet) :zap:	:zap:	
+## :zap:	:zap:	Repo moved to [convergedmachine](https://github.com/convergedmachine/Refined-RadImagenet) :zap:	:zap:	
 
 The RadImageNet dataset are available by request at [https://www.radimagenet.com/](https://www.radimagenet.com/))
 
