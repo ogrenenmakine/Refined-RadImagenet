@@ -23,7 +23,7 @@ We highly recommend you to adap the code for benchmarking for other models:
 
 ### ResNet Models and Weights
 
-The model weights shared through [https://huggingface.co/ogrenenmakine/RadImagenet](https://huggingface.co/ogrenenmakine/RadImagenet)
+The model weights shared through [https://huggingface.co/convergedmachine/RadImagenet](https://huggingface.co/convergedmachine/RadImagenet)
 
 ```
 timm.create_model('resnet10t', num_classes=165)
@@ -65,11 +65,11 @@ measure_acc_metrics.py
 - **process.py**: Main script to process and organize the RadImagenet files.
 - **measure_acc_metrics.py**: The script to measure accuracy metrics.
 
-To create a GitHub README file with the instructions for using Git to clone the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`, you can format it as follows:
+To create a GitHub README file with the instructions for using Git to clone the Hugging Face repository `convergedmachine/Refined-RadImagenet`, you can format it as follows:
 
 ## Download Processing Files
 
-This repository contains files from the Hugging Face repository `ogrenenmakine/Refined-RadImagenet`. Follow the instructions below to clone the repository using Git.
+This repository contains files from the Hugging Face repository `convergedmachine/Refined-RadImagenet`. Follow the instructions below to clone the repository using Git.
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ git lfs install
 To clone the entire repository into your local machine, use the following command:
 
 ```bash
-git clone https://huggingface.co/ogrenenmakine/Refined-RadImagenet source/
+git clone https://huggingface.co/convergedmachine/Refined-RadImagenet source/
 ```
 
 This command will clone all files from the repository into a directory named `source`.
@@ -92,7 +92,7 @@ This command will clone all files from the repository into a directory named `so
 ## Notes
 
 - Make sure you have sufficient storage space for large files.
-- For more information about this dataset, visit the [Hugging Face page](https://huggingface.co/datasets/ogrenenmakine/Refined-RadImagenet).
+- For more information about this dataset, visit the [Hugging Face page](https://huggingface.co/datasets/convergedmachine/Refined-RadImagenet).
 
 Feel free to contribute or raise issues if you encounter any problems.
 
